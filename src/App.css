@@ -14,23 +14,81 @@
 }
 
 .nav {
+  position: relative;
   background-color: black;
-  padding: 10px;
+  padding: 15px;
 }
 
-
 .phone{
+  position: absolute;
+  top: 0px;
+  right: 0px;
   color:white;
   margin-right: 1400px;
 }
 
 
 .link{
-display: flex;
-flex-direction: row-reverse;
-margin-top: -20px;
-color:white;
+  position: absolute;
+  top: 0px;
+  left: 1400px;
+  color:white;
 }
+.logo{
+  color:green
+}
+.menuDiv{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: grey;
+  padding: 0px;
+}
+
+.grid-item3 {
+  padding: 40px;
+  margin-left:200px
+}
+.grid-item2{
+  padding: 40px;
+  margin-left:200px
+
+}
+.grid-item1{
+  padding: 20px;
+
+}
+
+dt{
+  
+    margin-left: 10px;
+  
+}
+
+.main {
+ 
+  display: flex;
+
+}
+
+
+.thebest{
+  color:white
+}
+.coverDiv{
+  position: relative;
+  margin: 0px;
+  width: 1920px;
+  height:800px;
+  background-color: black;
+}
+
+.coverDivDiv{
+  top: 300px;
+  right: 1400px;
+  position: absolute;
+
+}
+
 
 @keyframes App-logo-spin {
   from {
